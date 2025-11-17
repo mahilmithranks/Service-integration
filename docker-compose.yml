@@ -1,0 +1,23 @@
+services:
+  weather-api:
+    build: ./weather-api
+    container_name: weather-api
+    ports:
+      - "5000:5000"
+
+  notifier:
+    build: ./notifier
+    container_name: notifier
+    ports:
+      - "7000:7000"
+    depends_on:
+      - weather-api
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - notifier
+      - weather-api

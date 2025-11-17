@@ -1,0 +1,56 @@
+.page {
+  background: linear-gradient(to bottom right, #9cebff, #6aa8ff);
+  min-height: 100vh;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.title {
+  color: #004d99;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 20px;
+  width: 420px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.input {
+  width: 90%;
+  padding: 12px;
+  border: 2px solid #ccd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 12px 24px;
+  background: #0060d1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.weather-box {
+  margin-top: 25px;
+  text-align: left;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #004d99;
+  font-weight: 600;
+}
